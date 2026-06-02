@@ -104,9 +104,5 @@ accounts
 
 ## Status
 
-Completed: 41/41 Exercises
-
+Completed: 41/41 Exercises  
 Module Status: Complete
-
-```
-```
