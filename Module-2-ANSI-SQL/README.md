@@ -55,5 +55,5 @@ Module-2-ANSI-SQL/
 
 ## Status
 
-Completed: 25/25 Exercises 
+Completed: 25/25 Exercises  
 Database Verified Successfully
