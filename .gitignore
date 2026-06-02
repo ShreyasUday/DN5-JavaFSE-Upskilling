@@ -1,0 +1,24 @@
+# DN5 Java FSE Repository
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Linux temporary files
+*~
+*.swp
+*.swo
+
+# Java build tools
+target/
+build/
+out/
+
+# Logs
+*.log

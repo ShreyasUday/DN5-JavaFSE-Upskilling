@@ -1,0 +1,309 @@
+/* =====================================================
+   GLOBAL STYLES
+===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+/* =====================================================
+   LINKS
+===================================================== */
+
+a:link{
+    text-decoration:none;
+}
+
+a:hover{
+    color:#ffd700;
+}
+
+a:active{
+    color:red;
+}
+
+a:visited{
+    opacity:0.9;
+}
+
+/* =====================================================
+   WELCOME BANNER
+===================================================== */
+
+#welcomeBanner{
+    background:linear-gradient(
+        135deg,
+        #0d6efd,
+        #4f9eff
+    );
+
+    color:white;
+    text-align:center;
+
+    padding:100px 20px;
+}
+
+#welcomeBanner h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+#welcomeBanner p{
+    font-size:1.2rem;
+}
+
+/* =====================================================
+   SECTION HEADERS
+===================================================== */
+
+.section-title{
+    text-align:center;
+    margin-bottom:30px;
+    padding:15px;
+
+    background:linear-gradient(
+        90deg,
+        #0d6efd,
+        #6ea8fe
+    );
+
+    color:white;
+    border-radius:10px;
+}
+
+/* =====================================================
+   STATISTICS
+===================================================== */
+
+.stat-box{
+    background:white;
+    padding:30px;
+    margin:10px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.stat-box h2{
+    color:#0d6efd;
+}
+
+/* =====================================================
+   EVENT CARDS
+===================================================== */
+
+.eventCard{
+    background:white;
+    border:1px solid #ddd;
+    border-radius:15px;
+
+    padding:20px;
+    margin-bottom:20px;
+
+    transition:0.3s;
+}
+
+.eventCard:hover{
+    transform:translateY(-5px);
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.15);
+}
+
+.eventCard h3,
+.eventCard p{
+    margin-bottom:10px;
+}
+
+/* =====================================================
+   GALLERY IMAGES
+===================================================== */
+
+.gallery-img{
+    width:100%;
+    max-width:250px;
+    height:180px;
+
+    object-fit:cover;
+
+    border:4px solid #0d6efd;
+    border-radius:10px;
+
+    transition:0.3s;
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+}
+
+/* =====================================================
+   TABLE STYLING
+===================================================== */
+
+table{
+    background:white;
+}
+
+table th,
+table td{
+    padding:15px;
+    text-align:center;
+}
+
+table tr:nth-child(even){
+    background:#f7f7f7;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+/* =====================================================
+   FORM STYLING
+===================================================== */
+
+form{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.1);
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    outline:3px solid #6ea8fe;
+}
+
+#outputMessage{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+    color:green;
+}
+
+/* =====================================================
+   VIDEO
+===================================================== */
+
+video{
+    border-radius:15px;
+    overflow:hidden;
+}
+
+/* =====================================================
+   FAQ
+===================================================== */
+
+.accordion-item{
+    margin-bottom:10px;
+}
+
+/* =====================================================
+   CONTACT
+===================================================== */
+
+#contact i{
+    font-size:30px;
+    margin-right:15px;
+    color:#0d6efd;
+}
+
+/* =====================================================
+   MULTI COLUMN NEWS SECTION
+===================================================== */
+
+.news-columns{
+    column-count:2;
+    column-gap:30px;
+    column-rule:1px solid gray;
+}
+
+/* =====================================================
+   BOOTSTRAP UTILITIES DEMO
+===================================================== */
+
+.rounded-card{
+    border-radius:50px;
+}
+
+.shadow-card{
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer{
+    margin-top:50px;
+}
+
+/* =====================================================
+   RESPONSIVE DESIGN
+===================================================== */
+
+@media(max-width:768px){
+
+    #welcomeBanner{
+        padding:70px 15px;
+    }
+
+    #welcomeBanner h1{
+        font-size:2rem;
+    }
+
+    .gallery-img{
+        max-width:150px;
+        height:120px;
+    }
+
+    .navbar-nav{
+        text-align:center;
+    }
+
+    table{
+        font-size:14px;
+    }
+
+    body{
+        font-size:14px;
+    }
+
+}
+
+/* =====================================================
+   SMALL MOBILE DEVICES
+===================================================== */
+
+@media(max-width:576px){
+
+    .section-title{
+        font-size:1.2rem;
+    }
+
+    .stat-box{
+        margin-bottom:20px;
+    }
+
+    .gallery-img{
+        width:100%;
+        max-width:120px;
+        height:100px;
+    }
+
+}
